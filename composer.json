@@ -1,0 +1,24 @@
+{
+	"name": "foolz/foolfuuka-plugin-fortune",
+	"type": "foolz-foolfuuka-plugin",
+	"description": "Adds support for fortunes on certain boards.",
+	"version": "1.0.0",
+	"keywords": ["fortune"],
+	"homepage": "http://www.4plebs.org",
+	"license": "Apache-2.0",
+	"authors": [{"name": "4plebs", "email": "admin@4plebs.org"}],
+	"support": {
+		"email": "admin@4plebs.org",
+		"irc": "irc://irc.irchighway.net/fooldriver"
+	},
+
+	"require" : {
+		"foolz/plugin": "dev"
+	},
+
+	"extra": {
+		"name": "Fortune",
+		"slug": "fortune",
+		"module": "foolfuuka"
+	}
+}
